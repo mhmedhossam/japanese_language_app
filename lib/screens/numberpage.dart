@@ -94,7 +94,10 @@ class NumberPage extends StatelessWidget {
       ),
       body: ListView.builder(
         itemBuilder: (BuildContext context, int index) {
-          return ListItems(item: numbers[index]);
+          return ListItems(
+            color: const Color.fromARGB(255, 118, 237, 198),
+            item: numbers[index],
+          );
         },
         itemCount: numbers.length,
       ),

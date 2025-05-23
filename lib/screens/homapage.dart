@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:language_learning_fapp/screens/numberpage.dart';
-import 'package:language_learning_fapp/screens/phasespage.dart';
 
 import '../components/category_item.dart';
 import '../components/newcomponent.dart';
-import 'colorpage.dart';
-import 'familymembers.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

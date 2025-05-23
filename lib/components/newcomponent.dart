@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:language_learning_fapp/screens/colorpage.dart';
-import 'package:language_learning_fapp/screens/familymembers.dart';
-import 'package:language_learning_fapp/screens/homapage.dart';
-import 'package:language_learning_fapp/screens/numberpage.dart';
-import 'package:language_learning_fapp/screens/phasespage.dart';
 
 import 'bottom_nav_curve_painter.dart';
 import 'buttonbar_icon.dart';
@@ -19,12 +14,8 @@ class _BottomNavBarCurvedFb1State extends State<BottomNavBarCurvedFb1> {
   @override
   Widget build(BuildContext context) {
     double height = 56;
-
     const primaryColor = Colors.orange;
     const secondaryColor = Colors.black54;
-    const accentColor = Color(0xffffffff);
-    const backgroundColor = Colors.white;
-
     return BottomAppBar(
       color: Colors.transparent,
       elevation: 0,

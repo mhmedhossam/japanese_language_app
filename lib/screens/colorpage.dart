@@ -81,7 +81,10 @@ class ColorPage extends StatelessWidget {
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
-          return ListItems(item: coloritem[index]);
+          return ListItems(
+            item: coloritem[index],
+            color: const Color.fromARGB(255, 22, 226, 230),
+          );
         },
         itemCount: coloritem.length,
       ),

@@ -27,3 +27,5 @@ class JapaneseLanguageApp extends StatelessWidget {
     );
   }
 }
+
+//new basic app in the beginner

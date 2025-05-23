@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:language_learning_fapp/components/phasecomponent.dart';
+import 'package:language_learning_fapp/components/item_info.dart';
 import 'package:language_learning_fapp/models/item_model.dart';
 import 'package:language_learning_fapp/screens/homapage.dart';
 
@@ -77,7 +77,11 @@ class Phasespage extends StatelessWidget {
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
-          return PhasesItems(item: phaseItem[index]);
+          return ItemInfo(
+            item: phaseItem[index],
+            color: const Color.fromARGB(255, 139, 189, 234),
+            mtop: 10,
+          );
         },
         itemCount: phaseItem.length,
       ),

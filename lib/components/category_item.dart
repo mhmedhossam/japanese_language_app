@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:language_learning_fapp/screens/homapage.dart';
 
 // ignore: must_be_immutable
 class CategoryItem extends StatelessWidget {
