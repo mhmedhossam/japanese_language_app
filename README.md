@@ -1,0 +1,1 @@
+# japanese_language_app
