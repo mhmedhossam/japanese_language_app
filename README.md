@@ -1,16 +1,27 @@
-# language_learning_fapp
+A new Flutter App 🇯🇵 Japanese Language App A simple and interactive Flutter application designed to help beginners learn basic Japanese words and phrases with audio support and clean navigation.
 
-A new Flutter project.
+✨ Features 🔤 Learn essential Japanese words and phrases with text and audio.
 
-## Getting Started
+🔊 Audio playback using the audioplayers package.
 
-This project is a starting point for a Flutter application.
+🧭 Smooth navigation between screens using Flutter's Navigator.
 
-A few resources to get you started if this is your first Flutter project:
+🧱 Custom reusable widgets for better code organization.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📱 Cross-platform support: Android, iOS, Windows, and more.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🎯 Lightweight and beginner-friendly user interface.
+
+🛠️ Built With Flutter SDK
+
+audioplayers for sound playback
+
+Navigator for screen transitions
+
+Custom components like:
+
+BottomNavigationBar
+
+CategoryItem for displaying categories
+
+Organized pubspec.yaml for managing dependencies and assets
