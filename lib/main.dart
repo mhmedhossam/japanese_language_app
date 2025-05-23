@@ -6,11 +6,11 @@ import 'package:language_learning_fapp/screens/numberpage.dart';
 import 'package:language_learning_fapp/screens/phasespage.dart';
 
 void main() {
-  runApp(const LanguageApp());
+  runApp(const JapaneseLanguageApp());
 }
 
-class LanguageApp extends StatelessWidget {
-  const LanguageApp({super.key});
+class JapaneseLanguageApp extends StatelessWidget {
+  const JapaneseLanguageApp({super.key});
 
   @override
   Widget build(BuildContext context) {
